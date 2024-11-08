@@ -15,6 +15,8 @@ pipeline {
                         -Dsonar.projectName="jenkins-dummy" \
                         -Dsonar.python.version=3.8 \
                         -Dsonar.coverageReportPaths=coverage.xml
+                        -Dsonar.login="admin"
+                        -Dsonar.password="admin"
                     """
                 }
             }
